@@ -46,7 +46,7 @@ session_start();
 <script language="javascript" type="text/javascript">
 $(document).ready(function(){
 
- <?php if($_REQUEST['lang']){?>
+ <?php if($_REQUEST['lang']){ ?>
 	$("#vi").click(function(){
 		ad=window.location.href;		
 		kq=ad.replace('/en/','/vi/')
@@ -58,7 +58,8 @@ $(document).ready(function(){
 		kq=ad.replace('/vi/','/en/')
 		document.location=kq;
 		return false;
-		});<? }?>
+		});
+<?php } ?>
 
 	$(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
@@ -154,7 +155,7 @@ function ClickToURL(linkVal)
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
   
-    <?php include _template."layout/header.php"?>
+    <?php include _template."layout/header.php"; ?>
     <div id="container">
     <!--<div style="float:left;width:200px;"><script src="js/date.js"></script></div>-->
     <div style="margin-bottom:5px;padding:0 10px"><marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="2" scrolldelay="2" width="100%"><?=_chao?></marquee></div>
@@ -170,16 +171,16 @@ function ClickToURL(linkVal)
 		echo "<div id='main'>";
 		include _template.$template."_tpl.php";
 		echo "</div>";
-	}?>
+	} ?>
 		
         <div class="clear"></div>
-        <?php include _template."layout/spkhuyenmai.php";?>
+        <?php include _template."layout/spkhuyenmai.php"; ?>
     </div><!--end container-->    
       
 </div><!--end wrapper-->
 </div>
 </div>
-<?php include _template."layout/footer.php"?>
+<?php include _template."layout/footer.php"; ?>
 <a href="#" class="scrollToTop"></a>
 <script src='https://3lichat.us/onlinechat.php?key=9e94fe158cab1d5023c479ad53298442'></script>
 </body>
