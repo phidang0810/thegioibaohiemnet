@@ -1,0 +1,547 @@
+BODY 
+	{
+	background-image:url(../images/nen_03.jpg); 	
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	margin-top:0px; 
+	margin-bottom:0px;
+	}
+.outer 
+	{
+	width:900px; 
+	background-color:#ebebeb;	
+	}
+	/* ================ menu ===============*/
+.logoindextren
+	{
+	background:url(../images/index_logotren.jpg);
+	}
+.logoindexdua
+	{
+	background:url(../images/index_logogiua.jpg);
+	}
+.logoindexduoi
+	{
+	background:url(../images/index_logoduoi.jpg);
+	}
+.nen_menu
+	{
+	background-image:url(../images/vn/nen_menu.jpg);
+	height:139px;
+	}
+.logo
+	{
+	background:url(../images/vn/logo.jpg);
+	}
+.nenlogo
+	{
+	background:url(../images/vn/nenmenulogo.jpg);
+	}
+	/* ================ khung nen ===============*/
+.spham_nentrangtren
+	{
+	background:url(../images/sanpham_nentrangtren.jpg);
+	}
+.spham_nentranggiua
+	{
+	background:url(../images/sanpham_nentranggiua.jpg);
+	}
+.spham_nentrangduoi
+	{
+	background:url(../images/sanpham_nenrangduoi.jpg);
+	}
+/* ================ nks===============*/
+.spham_a_1
+	{
+	background:url(../images/sanpham_nsk_tren03a.jpg);
+	}
+.spham_a_2
+	{
+	background:url(../images/sanpham_nsk_giua02a.jpg);
+	}
+.spham_a_3
+	{
+	background:url(../images/sanpham_nsk_duoi01a.jpg);
+	}
+.spham_b_1
+	{
+	background:url(../images/sanpham_nsk_tren03b.jpg);
+	}
+.spham_b_2
+	{
+	background:url(../images/sanpham_nsk_giua02b.jpg);
+	}
+.spham_b_3
+	{
+	background:url(../images/sanpham_nsk_duoi001b.jpg);
+	}
+	
+	
+.lienhe_nen_tren
+	{
+	background:url(../images/lienhe_nen_tren.jpg);
+	}
+.lienhe_nen_giua
+	{
+	background:url(../images/lienhe_nen_giua.jpg);
+	}
+.lienhe_nen_duoi
+	{
+	background:url(../images/lienhe_nen_duoi.jpg);
+	}
+.nen_logo_tren
+	{
+	background:url(../images/nen_logo_tren.jpg);
+	}
+    .nen_logo_giua
+	{
+	background:url(../images/nen_logo_giua.jpg);
+	}
+	.nen_logo_duoi
+	{
+	background:url(../images/nen_logo_duoi.jpg);
+	}
+
+.thanh_tieude
+	{
+	background:url(../images/thanh_tieude.jpg);
+	}
+.nen_nho_tren
+	{
+	background:url(../images/vn/nen_nho_tren.jpg);	
+	}
+.nen_nho_giua
+	{
+	background-image:url(../images/vn/nen_nho_giua.jpg);
+	}
+.nen_lon_tren
+	{
+	background:url(../images/vn/nen_lon_tren.jpg)
+	}
+	.lien_he
+	{
+	background:url(../images/lienhe_logo.jpg)
+	}
+.nen_lon_giua
+	{
+	background-image:url(../images/vn/nen_lon_giua.jpg);
+	}
+	/* ================ sanpham ===============*/
+.nsk
+	{
+	background:url(../images/logo/sanpham_nsk.jpg);
+	}
+.iko
+	{
+	background:url(../images/logo/sanpham_iko.jpg);
+	}
+.ASAHI_FS
+	{
+	background:url(../images/logo/sanpham_asahi&fs.jpg);
+	}
+.afg
+	{
+	background:url(../images/logo/sanpham_FAG.jpg);
+	}
+.skb
+	{
+	background:url(../images/logo/sanpham_SKB.jpg);
+	}
+.bega
+	{
+	background:url(../images/logo/sanpham_BEGA.jpg);
+	}
+.fsq
+	{
+	background:url(../images/logo/sanpham_fsq.jpg);
+	}
+.unibear_diamond_tsubahi
+	{
+	background:url(../images/logo/sanpham_unibear.jpg);
+	}
+.tsubaki
+	{
+	background:url(../images/logo/sanpham_tsubaki.jpg);
+	}
+.rexnord
+	{
+	background:url(../images/logo/sanpham_rexvord.jpg);
+	}
+.mcc
+	{
+	background:url(../images/logo/sanpham_mcc.jpg);
+	}
+.teco
+	{
+	background: url(../images/logo/sanpham_teco.jpg);
+	}
+.mitsuboshi
+	{
+	background:url(../images/logo/sanpham_mitsuboshi.jpg);
+	}
+.did
+	
+	{
+	background:url(../images/logo/sanpham_did.jpg);
+	}
+.nok_nactec
+	{
+	background:url(../images/logo/sanpham_nok_nactec.jpg);
+	}
+.loctite
+	{
+	background:url(../images/logo/sanpham_loctite.jpg);
+	}
+.fuchs
+	{
+	background:url(../images/logo/sanpham_fuchs.jpg);
+	}
+.seiken
+	{
+	background:url(../images/logo/sanpham_seiken.jpg);
+	}
+.fax
+	{
+	background:url(../images/logo/sanpham_falk.jpg);
+	}
+	
+	/* ================ inputtext ===============*/
+.ct_textarea {
+	width:537px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	height:128px;
+	border:1px #0b60bc solid;
+}
+.ct_textarea_1{
+	width:215px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border:1px #0b60bc solid;
+}
+.inputtext
+	{	
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px; 
+	width:181px;
+	font-weight:300;
+	background-color:#dcdcdc;
+	border:#333333 solid 1px;
+	color:#07509f;
+	}
+.nen_menu_duoi
+	{
+	background-color:#07509f;
+	}
+	/* ================ text ===============*/
+.text_tieude
+	{
+	font:"Times New Roman", Times, serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-top:5px
+	}
+.text_tieude_00
+	{
+	font:"Times New Roman", Times, serif;
+	font-size:14px;
+	color:#0099cc;
+	font-weight:bold;
+	padding-left:13px;
+	padding-bottom:8px;
+	padding-top:5px
+	}
+.text_tieude_000
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#0099cc;	
+	padding-left:13px;
+	padding-bottom:5px;
+	padding-top:5px
+	}
+.text_tieude_010
+	{
+	font:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#0099cc;
+	font-weight:bold;
+	padding-left:5px;
+	padding-bottom:0px;
+	padding-top:5px
+	}
+.text_tieude_01
+	{
+	font:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding: 0px 0 4px 12px;	
+	}
+p.text_tieude_02
+	{
+	font:"Times New Roman", Times, serif;
+	font-size:15px;
+	color:#660000;
+	font-weight:bold;
+	padding: 0px 0 4px 8px;	
+	}
+p.text_tieude_03
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#660000;	
+	padding: 0px 0 4px 12px;	
+	}
+.text_tieude_04
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#660000;	
+	padding-right:10px;
+	}
+.text_tieude_05
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#07509f;	
+	padding-right:10px;
+	}
+.tec_vovong p
+	{
+	padding: 0px 0 4px 20px;
+	margin: 0 0 4px 20px;
+	background: url(../images/nut_au.jpg) no-repeat center left; 	
+	}
+.tec_vovong_0 p
+	{
+	padding: 0px 0 3px 20px;
+	margin: 0 0 3px 10px;
+	background: url(../images/0084_trustyol-check-blue.png) no-repeat center left; 	
+	}
+.tec_vovong_00 p
+	{
+	padding: 0px 0 4px 20px;
+	margin: 0 0 4px 10px;
+	background: url(../images/0084_trustyol-check-blue.png) no-repeat center left; 	
+	}
+	
+	/* ================ p ===============*/
+.text_vanban p:first-letter
+	{
+	color: #ff0000;
+	font-size:x-large;
+	} 
+.text_vanban p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#660000;
+	line-height:20px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_e p:first-letter
+	{
+	color: #ff0000;
+	font-size:x-large;
+	
+	} 
+.text_vanban_e p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000000;
+	line-height:22px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_d p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#000000;
+	line-height:22px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_f p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#660000;
+	line-height:22px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_g p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	color:#07509f;
+	line-height:22px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+	.text_vanban_gg p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+	color:#07509f;
+	line-height:22px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_ggg p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+	color:#07509f;
+	line-height:16px;	
+	
+	}
+b	{
+	color:#FF0000;
+	}
+
+.text_vanban_a p:first-letter
+	{
+	color: #ff0000;
+	font-size:16px;
+	} 
+.text_vanban_a p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#660000;
+	line-height:20px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_b p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#07509f;
+	line-height:20px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text_vanban_c p
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#660000;
+	line-height:18px;
+	padding: 3px 5px 3px 10px;
+	margin:0px;
+	text-align:justify;	
+	}
+.text
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:100;
+	line-height:18px;
+	padding-top:5px;
+	margin-right:0px;
+	margin-left:0px;
+	}
+.text_01
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:100;
+	line-height:18px;
+	margin-top:0px;
+	padding-right:5px;
+	padding-left:5px;
+	}
+.text_chimuc
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#07509f;
+	font-size:13px;
+	font-weight:300;
+	padding-left:5px;
+	}
+.text_tieudetrang
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#990000;
+	font-size:13px;
+	font-weight:bold;
+	padding-left:0px;
+
+	}
+.tex_logo_00
+	 {
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:13px; 
+	 color:#660000;
+	 padding-top:3px;
+	 }
+.tect_skq
+	{
+	
+	}
+	/*================== link  ============*/
+.xemchitiet
+	{
+	font:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#990000;
+	font-weight:bold;
+	text-align:left;	
+	padding-left:16px;
+	margin: 0 0 6px 7px;
+	background:url(../images/arrowbullet.png) no-repeat center left; 
+	}
+a.tex_a:link
+	 {
+	 color:#990000; 
+	 text-decoration: none;
+	 }
+a.tex_a:visited 
+	{
+	color: #990000; 
+	text-decoration: none;
+	}
+a.tex_a:hover 
+	{
+	text-decoration:none; color:#FF0000;
+	}
+
+	
+a.tex_b:link
+	 {
+	 color:#006699; 
+	 text-decoration: none;
+	 }
+a.tex_b:visited 
+	{
+	color: #006699; 
+	text-decoration: none;
+	}
+a.tex_b:hover 
+	{
+	text-decoration:none; color:#FF0000;
+	}
+	
+	

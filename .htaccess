@@ -1,0 +1,22 @@
+RewriteEngine on
+Options -Indexes
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html&p=([0-9]+)$ index.php?lang=$1&com=$2&p=$3  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ index.php?lang=$1&com=$2  [L]
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/keyword=(.*)&p=([0-9]+)$ index.php?lang=$1&com=$2&keyword=$3&p=$4  [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/keyword=(.*)$ index.php?lang=$1&com=$2&keyword=$3  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([0-9]+)/([a-zA-Z0-9_-]+).html$ index.php?lang=$1&com=$2&id=$3  [L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html&p=([0-9]+)$ index.php?lang=$1&com=$2&idi=$4&p=$5 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ index.php?lang=$1&com=$2&idi=$4 [L]
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html&p=([0-9]+)$ index.php?lang=$1com=$2&idc=$3&p=$4 [L]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+).html$ index.php?lang=$1&com=$2&idc=$3 [L]
+

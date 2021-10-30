@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 190px;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	width: 190px;
+	height: 210px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 190px;
+	text-align:center;
+	border-bottom:1px dotted #CCC;
+	margin-bottom:10px;
+}
+/*//////////////////////////*/
+
+
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll2 { 
+	width: 190px;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll2 .simply-scroll-clip {
+	width: 190px;
+	height: 550px;
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll2 .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 190px;
+	text-align:center;
+	border-bottom:1px dotted #CCC;
+}
+

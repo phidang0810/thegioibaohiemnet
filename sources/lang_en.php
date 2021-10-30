@@ -1,0 +1,72 @@
+<?php
+//------------ Menu -----------------
+define ('_trangchu', 'Home');
+define ('_gioithieu', 'About Us');
+define ('_sanpham', 'Product');
+define ('_baotribaohanh', 'Maintenance - Warranty');
+define ('_lienhe', 'Contact');
+define ('_bando', 'Map');
+define ('_tintuc', 'News');
+define ('_tuyendung', 'Career');
+define ('_sanphammoi', 'New Product');
+@define ('_congtrinhthuchien','Project');
+@define ('_timkiem','Search...');
+@define ('_tinkhac','Other news');
+@define ('_sanphamkhac','Other product');
+@define ('_khongcosp','No product');
+@define ('_lienhe','contact');
+@define ('_kqtk','Result');
+//--------------------------------------------------
+@define ('_dangonline','Online');
+@define ('_daonline','Counter');
+@define ('_cn','Updatting...');
+define ('_danhmucsanpham', 'Product Category');
+@define ('_chaomung','Welcome visit our company website!');
+@define ('_chao','Welcome visit thegioibaohiem.net!');
+define ('_tintucmoi', 'Newsletters');
+define ('_tintucvasukien', 'News & events');
+define ('_hotrotructuyen', 'Online Support');
+define ('_hotrovatuvan', 'support and consulting sales');
+define ('_soluottruycap', 'Hits');
+define ('_cacbaikhac', 'Articles');
+define ('_Price', 'Price');
+@define ('_id','Id');
+@define ('_gia','Price');
+define ('_chitietsanpham', 'Detail');
+define ('_sanphamcungloai', 'Other products');
+define ('_lienket', 'Web link');
+define ('_khachhang', 'Customer');
+define ('_doitac', 'Partner');
+define ('_hinhanh', 'Picture');
+@define ('_nhaptk','Please input keyword !');
+define ('_sanphambanchay', 'Hot Product');
+// ----------------------------------
+define ('_gui', 'Submit');
+define ('_nhaplai', 'Reset');
+define ('_diachi', 'Address');
+define ('_sodienthoai', 'Phone');
+define ('_hovaten', 'name');
+define ('_chude', 'Subject');
+define ('_noidung', 'Content');
+define ('_ghichu', 'You can contact us from this website by filling the contact information into the form below. We will contact you in the shortest time. Please thank. ');
+@define ('_tienich','Gadgets');
+@define ('_hoatdong','Activity');
+@define ('_hethongcuahang','Stores');
+@define ('_quytrinhsanxuat','Production process');
+@define ('_sanphamtieubieu','Hot Product');
+@define ('_loai','Type');
+@define ('_mua','Buy');
+@define ('_ban','Sell');
+@define ('_hotroonline','Online Support');
+
+@define ('_boithuong','Claims');
+@define ('_boithuongc','Claims');
+@define ('_tinkhac','Other news');
+@define ('_luottruycap','Counter');
+@define ('_hotro','Support');
+@define ('_hotline','hotline');
+@define ('_danhmucsanpham','Products');
+@define ('_cohoivieclam','Careers');
+@define ('_tinmoi','Hot News');
+@define ('_lienketweb','Link Websites');
+?>
