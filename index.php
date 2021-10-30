@@ -1,4 +1,5 @@
 <?php
+phpinfo();
 session_start();
 	@define ( '_template' , './templates/');
 	@define ( '_source' , './sources/');
